@@ -1,14 +1,21 @@
 [
   {
-    "relation": [
-      "delegate_permission/common.handle_all_urls",
-      "delegate_permission/common.get_login_creds"
-    ],
+    "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
       "package_name": "io.github.ksm7789.mydays",
       "sha256_cert_fingerprints": [
-        "2F:39:DF:13:E3:02:6C:1D:41:73:86:66:6D:0E:6F:E4:65:02:E7:39:8E:3A:B1:CB:BB:29:28:EF:1B:40"
+        "2F:39:DF:13:E3:02:6C:1D:41:73:86:66:0D:6F:E4:65:02:E7:39:8E:3A:B1:CB:BB:29:28:EF:1B:40:C7:F5"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.ksm7789.mydays",
+      "sha256_cert_fingerprints": [
+        "2F:39:DF:13:E3:02:6C:1D:41:73:86:66:0D:6F:E4:65:02:E7:39:8E:3A:B1:CB:BB:29:28:EF:1B:40:C7:F5"
       ]
     }
   }
